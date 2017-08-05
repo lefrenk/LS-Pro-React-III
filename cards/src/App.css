@@ -1,0 +1,106 @@
+.app {
+  text-align: center;
+  background-color: whitesmoke;
+  height: 3400px;
+}
+
+.feed {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card {
+	background-color: white;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+	width: 600px;
+	height: 785px;
+	margin: 15px;
+}
+
+.postImage {
+	width: 600px;
+	height: 500px;
+}
+
+.profilePic {
+	border-radius: 100px;
+	height: 30px;
+	width: 30px;
+	margin-left: -520px;
+	margin-top: 13px;
+}
+
+.authorNavBar {
+	width: 600px;
+	height: 60px;
+	color: white;
+	border-bottom: 1px solid lightgrey;
+	border-radius: 2px;
+}
+
+.likeButton {
+	margin-left: 5px;
+	margin-bottom: 12px;
+	margin-right: -10px;
+	height: 24px;
+	width: 24px;
+}
+
+.commentButton {
+	height: 50px;
+	width: 50px;
+}
+
+.modifiedButton {
+	border: none;
+  background-color: white;
+}
+
+.likesCounter {
+	margin-right: 500px;
+	margin-top: -10px;
+	margin-bottom: 7px;
+	font-weight: bold;
+}
+
+.commentContainer {
+	margin-left: 15px;
+}
+
+.boldMe {
+	font-weight: bold;
+}
+
+.makeMeTiny {
+	font-size: 10px;
+	color: grey;
+	margin-right: 490px;
+}
+
+hr {
+	width: 560px;
+	margin-top: 15px;
+}
+
+
+.addComment {
+	height: 45px;
+	width: 500px;
+	border: none;
+	margin-left: -20px;
+	color: rgb(169, 169, 169);
+	font-family: Arial;
+	font-size: 15px;
+	line-height: 18px;
+	resize: none;
+}
+
+.ellipsis {
+	border: none;
+  background-color: white;
+  float: right;
+  margin-right: 15px;
+  margin-top: 15px;
+}
