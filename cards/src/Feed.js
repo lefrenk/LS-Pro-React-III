@@ -12,30 +12,30 @@ import toast from './toast.jpg';
 
  const posts = [
   {
-    profilePic: {person2},
+    profilePic: person2,
     author: 'mothman95',
-    image: {taco},
+    image: taco,
     likes: '100',
     hoursAgo: '4'
   },
   {
-    profilePic: {person1},
+    profilePic: person1,
     author: 'not_an_alien',
-    image: {alien},
+    image: alien,
     likes: '231',
     hoursAgo: '7'
   },
   {
-    profilePic: {person2},
+    profilePic: person2,
     author: 'mothman95',
-    image: {toast},
+    image: toast,
     likes: '498',
     hoursAgo: '6'
   },
   {
-    profilePic: {person1},
+    profilePic: person1,
     author: 'not_an_alien',
-    image: {ram},
+    image: ram,
     likes: '222',
     hoursAgo: '8'
   }
@@ -50,6 +50,7 @@ export default class Feed extends Component {
           profilePic={post.profilePic} 
           author={post.author}   
           image={post.image}
+          likes={post.likes}
           hoursAgo={post.hoursAgo}
         />;
         })}
